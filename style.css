@@ -41,6 +41,39 @@ a:hover {
     ==============================================
 */
 
+.bg {
+  background-color: #f42;
+}
+
+.btn {
+  width: 13rem;
+  height: 2.5rem;
+}
+
+.middle {
+  border-right: 1px solid rgb(190, 184, 184);
+  padding-right: 1.8rem;
+}
+
+.nav-bottom {
+  border-bottom: 10px solid rgb(190, 184, 184);
+  border-top: 1px solid  rgb(190, 184, 184);
+}
+
+.text {
+  color: rgb(151, 142, 142) !important;
+  font-size: 1.5rem;
+}
+
+.trend {
+  color: black !important;
+}
+
+.text:hover,
+.middle:hover {
+  color: red !important;
+}
+
 nav svg {
   fill: white;
 }
