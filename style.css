@@ -8,8 +8,8 @@ body {
 }
 
 :root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+  --color-red: #f72210;
+  --bg-color-red: #f72210;
 }
 
 *,
@@ -28,7 +28,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
@@ -37,12 +36,12 @@ a:hover {
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** NAVBAR ******
     ==============================================
 */
 
 .bg {
-  background-color: #f42;
+  background-color: #f72210;
 }
 
 .btn {
@@ -78,6 +77,49 @@ nav svg {
   fill: white;
 }
 
+.parallelogram {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+/*
+    ==============================================
+                ****** FOOTER ******
+    ==============================================
+*/
+
+#footer-img {
+  fill: #f72210;
+}
+
+.icon {
+  float: right;
+  padding-top: 2.1rem;
+}
+
+.copy {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.top-footer {
+  border-bottom: 1px solid rgb(190, 184, 184);
+  padding-bottom: 0.7rem;
+}
+
 .fab {
   margin-left: 1rem;
+}
+
+.f-mid {
+  color: rgb(190, 184, 184) !important;
+}
+
+.f-mid:hover {
+  color: black !important;
 }
