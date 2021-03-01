@@ -162,6 +162,30 @@ nav svg {
   .fa-user {
     display: none !important;
   }
+
+  .top-footer {
+    padding-bottom: 2.7rem;
+  }
+
+  .icon {
+    padding-top: 1rem !important;
+  }
+
+  .copy {
+    bottom: 1rem;
+    padding-left: 17rem;
+  }
+
+  .mid {
+    width: 60% !important;
+  }
+
+  .f-mid {
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+    margin-right: 0 !important;
+    padding: 0.3rem !important;
+  }
 }
 
 /*
@@ -198,5 +222,31 @@ nav svg {
 
   .fa-user {
     display: inline-block !important;
+  }
+
+  .top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.9rem;
+  }
+
+  .icon {
+    margin-left: 1rem;
+  }
+
+  .f-img {
+    margin-left: 5rem;
+  }
+
+  .copy {
+    justify-content: flex-end;
+    right: 1.3rem;
+    margin-top: 11rem;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
   }
 }
