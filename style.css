@@ -40,6 +40,10 @@ a:hover {
     ==============================================
 */
 
+.nav-tab {
+  display: none !important;
+}
+
 .bg {
   background-color: #f72210;
 }
@@ -124,4 +128,34 @@ nav svg {
 
 .f-mid:hover {
   color: black !important;
+}
+
+/*
+    ==============================================
+          ****** MEDIA QUERIES FOR TABLET ******
+    ==============================================
+*/
+
+@media only screen and (max-width: 1024px) {
+  .nav-tab {
+    display: block !important;
+    height: 3rem;
+  }
+
+  svg {
+    width: 40%;
+    display: block;
+    position: absolute;
+    top: -25px;
+  }
+
+  .nav-desk {
+    display: none !important;
+  }
+
+  .nav-tab1 {
+    position: absolute;
+    bottom: 0;
+    left: 22rem;
+  }
 }
