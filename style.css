@@ -143,24 +143,20 @@ nav svg {
 @media only screen and (max-width: 1024px) {
   .nav-tab {
     display: block !important;
-    height: 3rem;
+    height: 4rem !important;
   }
 
   svg {
-    width: 40%;
+    width: 40% !important;
     display: block;
     position: absolute;
-    top: -25px;
-  }
-
-  .nav-desk {
-    display: none !important;
+    top: -10px;
   }
 
   .nav-tab1 {
-    position: absolute;
-    bottom: 0;
-    left: 36rem !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-bottom: 0 !important;
   }
 
   .fa-user {
@@ -183,19 +179,13 @@ nav svg {
   }
 
   svg {
-    width: 50%;
+    width: 60%;
     padding-top: 1.5rem;
   }
 
   .rounded-pill {
     width: 7rem;
     height: 2rem;
-  }
-
-  .nav-tab1 {
-    position: absolute;
-    bottom: 0;
-    left: 11rem !important;
   }
 
   .login {
