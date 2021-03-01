@@ -130,6 +130,10 @@ nav svg {
   color: black !important;
 }
 
+.fa-user {
+  display: none !important;
+}
+
 /*
     ==============================================
           ****** MEDIA QUERIES FOR TABLET ******
@@ -156,6 +160,53 @@ nav svg {
   .nav-tab1 {
     position: absolute;
     bottom: 0;
-    left: 22rem;
+    left: 36rem !important;
+  }
+
+  .fa-user {
+    display: none !important;
+  }
+}
+
+/*
+    ==============================================
+          ****** MEDIA QUERIES FOR SMARTPHONE ******
+    ==============================================
+*/
+
+@media only screen and (max-width: 768px) {
+  .nav-tab {
+    display: block !important;
+    height: 3rem;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  svg {
+    width: 50%;
+    padding-top: 1.5rem;
+  }
+
+  .rounded-pill {
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .nav-tab1 {
+    position: absolute;
+    bottom: 0;
+    left: 11rem !important;
+  }
+
+  .login {
+    display: none !important;
+  }
+
+  .nav-desk {
+    display: none !important;
+  }
+
+  .fa-user {
+    display: inline-block !important;
   }
 }
