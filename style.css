@@ -102,16 +102,16 @@ nav svg {
   padding-top: 2.1rem;
 }
 
-.copy {  
+.copy {
   margin-top: 2rem;
   position: absolute;
-  bottom: 10.8rem;
-  
+  bottom: 0.8rem;
 }
 
 .top-footer {
   border-bottom: 1px solid rgb(190, 184, 184);
   padding-bottom: 0.7rem;
+  position: relative;
 }
 
 .fab {
