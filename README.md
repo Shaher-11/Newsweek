@@ -16,7 +16,7 @@ This is a replica of Newsweek website built with bootstrap and it's rich compone
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shaher-11.github.io/Newsweek/)
 
 
 ## Getting Started
