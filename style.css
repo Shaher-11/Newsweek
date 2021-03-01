@@ -102,9 +102,11 @@ nav svg {
   padding-top: 2.1rem;
 }
 
-.copy {
-  display: inline-block;
+.copy {  
   margin-top: 2rem;
+  position: absolute;
+  bottom: 10.8rem;
+  
 }
 
 .top-footer {
