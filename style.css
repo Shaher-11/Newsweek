@@ -140,6 +140,15 @@ nav svg {
     ==============================================
 */
 
+.img-size {
+  width: 100%;
+  height: auto;
+}
+
+.img-hight {
+  height: 85%;
+}
+
 h3 {
   color: rgb(151, 146, 146);
 }
@@ -231,7 +240,7 @@ h3 {
     margin-right: 0 !important;
     padding: 0.3rem !important;
   }
-  
+
   .tab-m {
     width: 65%;
     margin: 0 auto;
