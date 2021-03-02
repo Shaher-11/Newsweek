@@ -231,6 +231,16 @@ h3 {
     margin-right: 0 !important;
     padding: 0.3rem !important;
   }
+  
+  .tab-m {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .letter {
+    width: 65% !important;
+    margin: 0 auto !important;
+  }
 }
 
 /*
