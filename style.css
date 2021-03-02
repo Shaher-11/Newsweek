@@ -8,8 +8,8 @@ body {
 }
 
 :root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+  --color-red: #f72210;
+  --bg-color-red: #f72210;
 }
 
 *,
@@ -28,7 +28,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
@@ -37,6 +36,217 @@ a:hover {
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** NAVBAR ******
     ==============================================
 */
+
+.nav-tab {
+  display: none !important;
+}
+
+.bg {
+  background-color: #f72210;
+}
+
+.btn {
+  width: 13rem;
+  height: 2.5rem;
+}
+
+.middle {
+  border-right: 1px solid rgb(190, 184, 184);
+  padding-right: 1.8rem;
+}
+
+.nav-bottom {
+  border-bottom: 10px solid rgb(190, 184, 184);
+  border-top: 1px solid  rgb(190, 184, 184);
+}
+
+.text {
+  color: rgb(151, 142, 142) !important;
+  font-size: 1.5rem;
+}
+
+.trend {
+  color: black !important;
+}
+
+.text:hover,
+.middle:hover {
+  color: red !important;
+}
+
+nav svg {
+  fill: white;
+}
+
+.parallelogram {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+/*
+    ==============================================
+                ****** FOOTER ******
+    ==============================================
+*/
+
+#footer-img {
+  fill: #f72210;
+}
+
+.icon {
+  float: right;
+  padding-top: 2.1rem;
+}
+
+.copy {
+  margin-top: 2rem;
+  position: absolute;
+  bottom: 0.8rem;
+}
+
+.top-footer {
+  border-bottom: 1px solid rgb(190, 184, 184);
+  padding-bottom: 0.7rem;
+  position: relative;
+}
+
+.fab {
+  margin-left: 1rem;
+}
+
+.f-mid {
+  color: rgb(190, 184, 184) !important;
+}
+
+.f-mid:hover {
+  color: black !important;
+}
+
+.fa-user {
+  display: none !important;
+}
+
+/*
+    ==============================================
+          ****** MEDIA QUERIES FOR TABLET ******
+    ==============================================
+*/
+
+@media only screen and (max-width: 1024px) {
+  .nav-tab {
+    display: block !important;
+    height: 4rem !important;
+  }
+
+  svg {
+    width: 40% !important;
+    display: block;
+    position: absolute;
+    top: -10px;
+  }
+
+  .nav-tab1 {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding-bottom: 0 !important;
+  }
+
+  .fa-user {
+    display: none !important;
+  }
+
+  .top-footer {
+    padding-bottom: 2.7rem;
+  }
+
+  .icon {
+    padding-top: 1rem !important;
+  }
+
+  .copy {
+    bottom: 1rem;
+    padding-left: 17rem;
+  }
+
+  .mid {
+    width: 60% !important;
+  }
+
+  .f-mid {
+    margin: 0 !important;
+    font-size: 0.8rem !important;
+    margin-right: 0 !important;
+    padding: 0.3rem !important;
+  }
+}
+
+/*
+    ==============================================
+          ****** MEDIA QUERIES FOR SMARTPHONE ******
+    ==============================================
+*/
+
+@media only screen and (max-width: 768px) {
+  .nav-tab {
+    display: block !important;
+    height: 3rem;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  svg {
+    width: 60%;
+    padding-top: 1.5rem;
+  }
+
+  .rounded-pill {
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .login {
+    display: none !important;
+  }
+
+  .nav-desk {
+    display: none !important;
+  }
+
+  .fa-user {
+    display: inline-block !important;
+  }
+
+  .top-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.9rem;
+  }
+
+  .icon {
+    margin-left: 1rem;
+  }
+
+  .f-img {
+    margin-left: 5rem;
+  }
+
+  .copy {
+    justify-content: flex-end;
+    right: 1.3rem;
+    margin-top: 11rem;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
