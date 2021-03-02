@@ -147,8 +147,9 @@ h3 {
 .img-tag {
   background-color: rgb(233, 229, 224);
   position: relative;
-  width: 10%;
+  width: auto;
   bottom: 24px;
+  display: inline;
 }
 
 .tag:hover {
@@ -172,6 +173,10 @@ h3 {
 
 .opinion {
   border-bottom: 3px solid rgb(173, 170, 170);
+}
+
+.letter {
+  background-color: rgb(235, 231, 226);
 }
 
 /*
