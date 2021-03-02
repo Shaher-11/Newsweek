@@ -136,6 +136,36 @@ nav svg {
 
 /*
     ==============================================
+                ****** FEATURED STORIES ******
+    ==============================================
+*/
+
+h3 {
+  color: rgb(151, 146, 146);
+}
+
+.img-tag {
+  background-color: rgb(233, 229, 224);
+  position: relative;
+  width: 10%;
+  bottom: 24px;
+}
+
+.tag:hover {
+  text-decoration: none;
+}
+
+.img-title {
+  text-decoration: none;
+}
+
+.img-title:hover {
+  border-bottom: 1px solid red;
+  text-decoration: #f72210;
+}
+
+/*
+    ==============================================
           ****** MEDIA QUERIES FOR TABLET ******
     ==============================================
 */
