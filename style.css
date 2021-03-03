@@ -243,4 +243,11 @@ h3 {
     position: relative;
     left: 5rem;
   }
+
+  .subs-d {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    
+  }
 }
