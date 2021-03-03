@@ -4,7 +4,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./imag/../img/website-screenshot.png)
+![screenshot](img/newsweek.png)
 
 This is a replica of Newsweek website built with bootstrap and it's rich components 
 
