@@ -165,6 +165,10 @@ h3 {
   background-color: rgb(235, 231, 226);
 }
 
+.carousel-caption {
+  top: 10%;
+}
+
 /*
     ==============================================
           ****** MEDIA QUERIES FOR TABLET ******
