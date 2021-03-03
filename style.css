@@ -40,10 +40,6 @@ a:hover {
     ==============================================
 */
 
-.nav-tab {
-  display: none !important;
-}
-
 .bg {
   background-color: #f72210;
 }
@@ -64,12 +60,7 @@ a:hover {
 }
 
 .text {
-  color: rgb(151, 142, 142) !important;
   font-size: 1.5rem;
-}
-
-.trend {
-  color: black !important;
 }
 
 .text:hover,
@@ -112,26 +103,12 @@ nav svg {
   bottom: 0.8rem;
 }
 
-.top-footer {
-  border-bottom: 1px solid rgb(190, 184, 184);
-  padding-bottom: 0.7rem;
-  position: relative;
-}
-
 .fab {
   margin-left: 1rem;
 }
 
-.f-mid {
-  color: rgb(190, 184, 184) !important;
-}
-
 .f-mid:hover {
   color: black !important;
-}
-
-.fa-user {
-  display: none !important;
 }
 
 /*
