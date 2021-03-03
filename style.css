@@ -173,6 +173,11 @@ h3 {
   height: 100%;
 }
 
+.touch {
+  margin: 0 auto;
+  width: 86%;
+}
+
 /*
     ==============================================
           ****** MEDIA QUERIES FOR TABLET ******
@@ -248,6 +253,5 @@ h3 {
     margin: 0 auto;
     text-align: center;
     align-items: center;
-    
   }
 }
