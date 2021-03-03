@@ -172,28 +172,7 @@ h3 {
 */
 
 @media only screen and (max-width: 1024px) {
-  .nav-tab {
-    display: block !important;
-    height: 4rem !important;
-  }
-
-  svg {
-    width: 40% !important;
-    display: block;
-    position: absolute;
-    top: -10px;
-  }
-
-  .nav-tab1 {
-    display: flex !important;
-    justify-content: flex-end !important;
-    padding-bottom: 0 !important;
-  }
-
-  .fa-user {
-    display: none !important;
-  }
-
+ 
   .top-footer {
     padding-bottom: 2.7rem;
   }
@@ -236,29 +215,20 @@ h3 {
 */
 
 @media only screen and (max-width: 768px) {
-  .nav-tab {
-    display: block !important;
-    height: 3rem;
-    margin-left: 0 !important;
-    padding-right: 0 !important;
+  .nav-middle,
+  .nav-top,
+  .nav-bottom {
+    visibility: hidden;
+    display: none;
   }
 
-  svg {
-    width: 60%;
-    padding-top: 1.5rem;
+  .login2 {
+    visibility: hidden;
   }
 
   .rounded-pill {
     width: 7rem;
     height: 2rem;
-  }
-
-  .login {
-    display: none !important;
-  }
-
-  .nav-desk {
-    display: none !important;
   }
 
   .fa-user {
