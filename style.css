@@ -90,6 +90,7 @@ nav svg {
 
 #footer-img {
   fill: #f72210;
+  width: 60%;
 }
 
 .icon {
@@ -101,6 +102,7 @@ nav svg {
   margin-top: 2rem;
   position: absolute;
   bottom: 0.8rem;
+  left: 15.5rem;
 }
 
 .fab {
@@ -176,7 +178,6 @@ h3 {
 */
 
 @media only screen and (max-width: 1024px) {
- 
   .top-footer {
     padding-bottom: 2.7rem;
   }
@@ -210,6 +211,10 @@ h3 {
     width: 65% !important;
     margin: 0 auto !important;
   }
+
+  .fb {
+    width: 100%;
+  }
 }
 
 /*
@@ -222,12 +227,16 @@ h3 {
   .nav-middle,
   .nav-top,
   .nav-bottom {
-    visibility: hidden;
-    display: none;
+    display: none !important;
   }
 
-  .login2 {
-    visibility: hidden;
+  .nav-tab1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .log-word {
+    display: none !important;
   }
 
   .rounded-pill {
@@ -236,7 +245,7 @@ h3 {
   }
 
   .fa-user {
-    display: inline-block !important;
+    color: white;
   }
 
   .top-footer {
@@ -251,17 +260,13 @@ h3 {
   }
 
   .f-img {
-    margin-left: 5rem;
+    margin-left: 1rem;
   }
 
   .copy {
-    justify-content: flex-end;
-    right: 1.3rem;
     margin-top: 11rem;
-    text-align: center;
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
     white-space: nowrap;
+    position: relative;
+    left: 5rem;
   }
 }
