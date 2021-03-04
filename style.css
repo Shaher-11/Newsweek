@@ -254,4 +254,12 @@ h3 {
     text-align: center;
     align-items: center;
   }
+
+  .subs-img1 {
+    margin: 0 auto;
+  }
+
+  .subs-img2 {
+    top: 20%;
+  }
 }
