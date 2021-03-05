@@ -6,7 +6,7 @@
 
 ![screenshot](img/newsweek.png)
 
-This is a replica of Newsweek website built with bootstrap and it's rich components 
+This is a replica of Newsweek website built with bootstrap and it's rich component.
 
 ## Built With
 
