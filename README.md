@@ -2,7 +2,7 @@
 
 # Newsweek
 
-> 
+> This project is a replica of the newsweek website to demonstrate the good usage of boostrap
 
 ![screenshot](img/newsweek.png)
 
