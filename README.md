@@ -27,13 +27,13 @@ This is a replica of Newsweek website built with bootstrap and it's rich compone
 
 ## Authors
 
-👤 **Author1**
+👤 **Shaher**
 
 - GitHub: [@githubhandle](https://github.com/Shaher-11/)
 - Twitter: [@twitterhandle](https://twitter.com/ShaherShamroukh/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaher-shamroukh/)
 
-👤 **Author2**
+👤 **Deepak**
 
 - GitHub: [@githubhandle](https://github.com/Deepakdanger )
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
