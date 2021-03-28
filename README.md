@@ -2,7 +2,7 @@
 
 # Newsweek
 
-> One paragraph statement about the project.
+> 
 
 ![screenshot](img/newsweek.png)
 
