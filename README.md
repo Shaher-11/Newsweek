@@ -2,11 +2,11 @@
 
 # Newsweek
 
-> This project is a replica of the newsweek website to demonstrate the good usage of boostrap as well as CSS grid and flexbox.
+> This project is a replica of the Newsweek website to demonstrate the good usage of bootstrap as well as CSS grid and flexbox.
 
 ![screenshot](img/newsweek.png)
 
-This is a replica of Newsweek website built with bootstrap and it's rich component.
+This is a replica of Newsweek website built with bootstrap and it's rich features.
 
 ## Built With
 
